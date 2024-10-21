@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="99" id="KGk-i7-Jjw" customClass="SettingsCells" customModule="TravelPro" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="99"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26r-Ps-Rm1">
+                        <rect key="frame" x="15" y="10" width="385" height="50"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="I2g-55-wza">
+                                <rect key="frame" x="15" y="5" width="355" height="40"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r6N-BW-5nT">
+                                        <rect key="frame" x="0.0" y="0.0" width="135" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="gGp-Yg-I1l"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <color key="textColor" name="DarkGray"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LEY-ss-PRu">
+                                        <rect key="frame" x="155" y="5" width="47" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="45" id="HgK-nI-zV7"/>
+                                            <constraint firstAttribute="height" constant="35" id="W2s-u6-fgI"/>
+                                        </constraints>
+                                    </switch>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJU-SQ-Gjg">
+                                        <rect key="frame" x="220" y="0.0" width="135" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="135" id="KQq-Zd-4D8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="12"/>
+                                        <color key="tintColor" red="0.42352941176470588" green="0.4823529411764706" blue="0.54117647058823526" alpha="1" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="90" minY="0.0" maxX="-90" maxY="0.0"/>
+                                        <state key="normal" title="English  (UK)" image="rightArrow">
+                                            <color key="titleColor" name="HeadingGrayColor"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="WhiteAndMatBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="I2g-55-wza" firstAttribute="leading" secondItem="26r-Ps-Rm1" secondAttribute="leading" constant="15" id="1AJ-pN-XBj"/>
+                            <constraint firstAttribute="height" constant="50" id="Np8-qI-ZJo"/>
+                            <constraint firstItem="I2g-55-wza" firstAttribute="centerY" secondItem="26r-Ps-Rm1" secondAttribute="centerY" id="f5z-hk-RlJ"/>
+                            <constraint firstAttribute="trailing" secondItem="I2g-55-wza" secondAttribute="trailing" constant="15" id="uu9-yI-wvN"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="26r-Ps-Rm1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="8O9-cb-WBr"/>
+                    <constraint firstItem="26r-Ps-Rm1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="AN3-4R-RR7"/>
+                    <constraint firstAttribute="bottom" secondItem="26r-Ps-Rm1" secondAttribute="bottom" constant="10" id="JQW-Bc-P48"/>
+                    <constraint firstAttribute="trailing" secondItem="26r-Ps-Rm1" secondAttribute="trailing" constant="15" id="Yxe-wP-vgN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="OptionLbl" destination="r6N-BW-5nT" id="N4M-Vc-w00"/>
+                <outlet property="containerView" destination="26r-Ps-Rm1" id="77C-GX-yHP"/>
+                <outlet property="detailedOptionBtn" destination="DJU-SQ-Gjg" id="myP-PF-KDk"/>
+                <outlet property="optionSwitch" destination="LEY-ss-PRu" id="RN0-93-R76"/>
+            </connections>
+            <point key="canvasLocation" x="188.54961832061068" y="15.140845070422536"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="rightArrow" width="8" height="12.666666984558105"/>
+        <namedColor name="DarkGray">
+            <color red="0.4823529411764706" green="0.4823529411764706" blue="0.4823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="HeadingGrayColor">
+            <color red="0.60799998044967651" green="0.60799998044967651" blue="0.60799998044967651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteAndMatBlueColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

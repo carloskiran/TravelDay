@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="TravelPro" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="8rU-TI-mgy" id="7CH-Ht-z4X"/>
+                <outlet property="letsGoBtn" destination="Hrw-3U-fcJ" id="iOd-nG-25M"/>
+                <outlet property="pageIndicationImageViewOne" destination="Q29-sI-Os5" id="IZg-Pb-dte"/>
+                <outlet property="pageIndicationImageViewThree" destination="n7p-PE-LPI" id="uM0-F4-8k9"/>
+                <outlet property="pageIndicationImageViewTwo" destination="ZoO-LD-63p" id="Qdf-xz-fNB"/>
+                <outlet property="pageIndicationStackView" destination="Fl6-Ro-JUc" id="fTo-eD-2px"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ub1-ig-Rjk">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="8rU-TI-mgy">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="7PS-Zc-56F">
+                                <size key="itemSize" width="128" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="Aek-hX-9iR"/>
+                                <outlet property="delegate" destination="-1" id="0pB-u9-hzC"/>
+                            </connections>
+                        </collectionView>
+                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fl6-Ro-JUc">
+                            <rect key="frame" x="20" y="719" width="59" height="13"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="splash-dots-01" translatesAutoresizingMaskIntoConstraints="NO" id="Q29-sI-Os5">
+                                    <rect key="frame" x="0.0" y="0.0" width="59" height="13"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="13" id="0aV-sP-0y3"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-dots-02" translatesAutoresizingMaskIntoConstraints="NO" id="ZoO-LD-63p">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="13"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="13" id="7Hx-pv-l9D"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash-dots-03" translatesAutoresizingMaskIntoConstraints="NO" id="n7p-PE-LPI">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="13"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="13" id="aOg-by-DQO"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="13" id="o4S-uo-iHz"/>
+                                <constraint firstAttribute="width" constant="59" id="xj4-ub-x5M"/>
+                            </constraints>
+                        </stackView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hrw-3U-fcJ" customClass="CustomButton" customModule="TravelPro" customModuleProvider="target">
+                            <rect key="frame" x="230" y="703" width="110" height="45"/>
+                            <color key="backgroundColor" name="btnLoginColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="110" id="OFL-HN-WsO"/>
+                                <constraint firstAttribute="height" constant="45" id="Q6Q-Z1-bmr"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="Let’s Go">
+                                <fontDescription key="titleFontDescription" name="Roboto-Medium" family="Roboto" pointSize="14"/>
+                                <color key="baseForegroundColor" name="whiteText"/>
+                            </buttonConfiguration>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                    <color key="value" name="startGradientColor"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                    <color key="value" name="endGradientColor"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="point" keyPath="endPoint">
+                                    <point key="value" x="1" y="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="pushButtonAction:" destination="-1" eventType="touchUpInside" id="aeG-Sb-ydw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="appBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="Hrw-3U-fcJ" firstAttribute="centerY" secondItem="Fl6-Ro-JUc" secondAttribute="centerY" id="HKl-tD-3Dz"/>
+                        <constraint firstAttribute="bottom" secondItem="Hrw-3U-fcJ" secondAttribute="bottom" constant="64" id="HkG-c3-MNx"/>
+                        <constraint firstAttribute="bottom" secondItem="8rU-TI-mgy" secondAttribute="bottom" id="ZDg-ml-Jrp"/>
+                        <constraint firstItem="8rU-TI-mgy" firstAttribute="top" secondItem="Ub1-ig-Rjk" secondAttribute="top" id="c9m-N1-S0d"/>
+                        <constraint firstItem="Fl6-Ro-JUc" firstAttribute="leading" secondItem="Ub1-ig-Rjk" secondAttribute="leading" constant="20" id="jSA-Wd-y45"/>
+                        <constraint firstAttribute="bottom" secondItem="Fl6-Ro-JUc" secondAttribute="bottom" constant="80" id="qyR-pY-x8X"/>
+                        <constraint firstAttribute="trailing" secondItem="8rU-TI-mgy" secondAttribute="trailing" id="tJs-IK-Kwp"/>
+                        <constraint firstAttribute="trailing" secondItem="Hrw-3U-fcJ" secondAttribute="trailing" constant="35" id="wGd-Au-OS8"/>
+                        <constraint firstItem="8rU-TI-mgy" firstAttribute="leading" secondItem="Ub1-ig-Rjk" secondAttribute="leading" id="wJa-cz-IsW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="af8-ZB-5Sc"/>
+            <color key="backgroundColor" name="appBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Ub1-ig-Rjk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="FPQ-SZ-zgc"/>
+                <constraint firstAttribute="trailing" secondItem="Ub1-ig-Rjk" secondAttribute="trailing" id="UfB-RE-Yu0"/>
+                <constraint firstAttribute="bottom" secondItem="Ub1-ig-Rjk" secondAttribute="bottom" id="det-46-V0S"/>
+                <constraint firstItem="Ub1-ig-Rjk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pwp-fQ-u7i"/>
+            </constraints>
+            <point key="canvasLocation" x="98.400000000000006" y="18.472906403940886"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="Hrw-3U-fcJ">
+            <size key="intrinsicContentSize" width="73.666666666666671" height="30.666666666666668"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="splash-dots-01" width="59" height="13"/>
+        <image name="splash-dots-02" width="55" height="13"/>
+        <image name="splash-dots-03" width="59" height="13"/>
+        <namedColor name="appBackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="btnLoginColor">
+            <color red="0.33333333333333331" green="0.69019607843137254" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="endGradientColor">
+            <color red="0.16099999845027924" green="0.77600002288818359" blue="0.62400001287460327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="startGradientColor">
+            <color red="0.10599999874830246" green="0.66699999570846558" blue="0.29800000786781311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteText">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

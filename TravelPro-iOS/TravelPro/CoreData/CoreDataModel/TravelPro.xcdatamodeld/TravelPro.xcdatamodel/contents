@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22F82" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AppLogDetails" representedClassName="AppLogDetails" syncable="YES">
+        <attribute name="appleEmail" optional="YES" attributeType="String"/>
+        <attribute name="appleFname" optional="YES" attributeType="String"/>
+        <attribute name="appleId" optional="YES" attributeType="String"/>
+        <attribute name="appleLname" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TTDUser" representedClassName="TTDUser" syncable="YES" codeGenerationType="class">
+        <attribute name="access_token" optional="YES" attributeType="String"/>
+        <attribute name="active" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="currrentCountry" optional="YES" attributeType="String"/>
+        <attribute name="dob" optional="YES" attributeType="String"/>
+        <attribute name="emailId" optional="YES" attributeType="String"/>
+        <attribute name="emailVerification" optional="YES" attributeType="String"/>
+        <attribute name="expires_in" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isConnected" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="mobileNo" optional="YES" attributeType="String"/>
+        <attribute name="mobileVerification" optional="YES" attributeType="String"/>
+        <attribute name="profileImage" optional="YES" attributeType="String"/>
+        <attribute name="refresh_token" optional="YES" attributeType="String"/>
+        <attribute name="registerType" optional="YES" attributeType="String"/>
+        <attribute name="resident" optional="YES" attributeType="String"/>
+        <attribute name="scope" optional="YES" attributeType="String"/>
+        <attribute name="taxableDays" optional="YES" attributeType="String"/>
+        <attribute name="token_type" optional="YES" attributeType="String"/>
+        <attribute name="user_id" optional="YES" attributeType="String"/>
+        <attribute name="user_type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+    </entity>
+</model>

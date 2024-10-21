@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  OptiSol_MVVM
+
+  Created by MAC-OBS-27 on 17/02/21.
+  
+*/
+//WelcomePageViewController
+
+"launch_welcome"="Welcome to Optisol MVVM";
+"launch_Pattern"="Pattern";
+"launch_Login"="Go to Login....";
+"english" = "English";
+"tamil" = "Tamil";
+"french" = "French";
+"login_title" = "Login to Opti";
+"email" = "Email";
+"password" = "Password";
+
+
+// MARK: - SPLASH SCREEN
+"JUST PLAN YOUR DREAM TRIP" = "PLANIFIEZ JUSTE VOTRE VOYAGE DE RÊVE";
+"WE CALCULATE YOUR TRAVEL TAXES" = "NOUS CALCULONS VOS TAXES DE VOYAGE";
+"YOU CAN ENJOY YOUR BUSINESS TRIP" = "VOUS POUVEZ PROFITER DE VOTRE VOYAGE D'AFFAIRES";
+
+
+// MARK: - MY PROFILE
+"My Profile" = "Mon profil";
+"Hi" = "Salut";
+"Edit"="Modifier";
+"Verified" = "Vérifié";
+"Verify" = "Vérifier";
+"This Year you have travelled" = "Cette année, vous ont voyagé";
+"TRIPS"= "voyages";
+
+
+// MARK: - EDIT PROFILE
+"Edit Profile" = "Modifier le profil";
+"First Name" = "Prénom";
+"Last Name" = "Nom de famille";
+"Email" = "E-mail";
+"Country" = "Pays";
+"Phone" = "Téléphone";
+"Date of Birth" = "Date de naissance";
+"Gender" = "Genre";
+"Residents" = "Résidentes";
+"UPDATE" = "MISE À JOUR";
+
+// MARK: - CREATE TRAVEL
+"New Travel Record" = "Créer un nouveau voyage";
+"From" = "Depuis";
+"To" = "Pour";
+"Taxable days" = "Jours imposables";
+"Definition of day" = "Définition du jour";
+"Departure" = "Départ";
+"Return" = "Retour";
+"Alert Threshold" = "Seuil d'alerte";
+"CREATE NEW RECORD" = "CRÉER UN NOUVEL ENREGISTREMENT";
+
+
+// MARK: - WELCOME LANDING CONTROLLER
+
+"Welcome to travel2tax" = "Bienvenue sur travel2tax";
+"You can access, explore and enjoy your travel with us" = "Vous pouvez accéder, explorer et profiter de votre voyage avec nous";
+"LOGIN" = "CONNEXION";
+"SIGNUP" = "S'INSCRIRE";
+"Create your account via" = "Créez votre compte via";
+
+// MARK: - LOGIN
+
+"Hello Again! Welcome back" = "Rebonjour! Accueillir dos";
+"Email ID / Mobile no" = "Identifiant e-mail / Numéro de portable";
+"Or continue with" = "Ou continuer avec";
+"Password" = "Mot de passe";
+"Email/Phone" = "Courriel/Téléphone";
+
+// MARK: - SIGNUP
+"Hello! Signup to get started" = "Bonjour! Inscrivez-vous pour Commencer";
+"First Name" = "Prénom";
+"Last Name" = "Nom de famille";
+"NEXT" = "SUIVANTE";
+"Others" = "autres";
+
+// MARK: - EMAIL CONTROLLER
+"How can we contact you digitally" = "Comment pouvons-nous vous contacter par voie numérique";
+"Email" = "E-mail";
+"Your email will be used to communicate notifications, product updates, company updates, and marketing purposes." = "Votre e-mail sera utilisé pour communiquer des notifications, des mises à jour de produits, des mises à jour de l'entreprise et marketing.mail";
+"I don’t want to receive marketing messages from us, I can opt out of receiving marketing/promotional notifications/messages any time in my account settings" = "Je ne souhaite pas recevoir de messages marketing de notre part, je peux refuser de les recevoir à tout moment dans les paramètres de mon compte";
+
+
+// MARK: - PHONE NUMBER VIEW CONTROLLER
+"And, your phone no." = "Et, votre numéro de téléphone.";
+"Phone no" = "Pas de téléphone";
+"Your phone number will only be used for notifications, we will not use it for marketing purpose." = "Votre numéro de téléphone ne sera utilisé que pour les notifications, nous ne l'utiliserons pas à des fins de marketing.";
+"I don’t want to receive SMS notifications, I can opt out of receiving marketing/promotional notifications/messages any time in my account settings" = "Je ne veux pas recevoir de notifications par SMS, je peux refuser de les recevoir à tout moment dans
+paramètres de mon compte";
+"SUBMIT" = "SOUMETTRE";
+
+
+// MARK: - CONFIRM EMAIL AND PHONE VIEW CONTROLLER
+"Please Confirm your email and phone no." = "Veuillez confirmer votre e-mail et votre numéro de téléphone.";
+"YES, VERIFY NOW" = "OUI, VÉRIFIER MAINTENANT";
+"Verify later" = "Vérifier plus tard";
+"Do you need to change" = "Avez-vous besoin de changer";
+
+
+// MARK: - CREATE PASSWORD VIEW CONTROLLER
+"Create your new password" =  "Créez votre nouveau mot de passe";
+"You need to create your strong password for make sure this application is using by you." = "Vous devez créer votre mot de passe fort pour vous assurer que vous utilisez cette application.";
+"New password"= "Nouveau mot de passe";
+"Confirm password"= "Confirmez le mot de passe";
+"RESET PASSWORD"= "RÉINITIALISER LE MOT DE PASSE";
+

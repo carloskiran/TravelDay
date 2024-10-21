@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsAndConditionViewController" customModule="TravelPro" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="fmt-Mb-pug" id="m8I-kJ-BOj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fmt-Mb-pug">
+                    <rect key="frame" x="0.0" y="133" width="393" height="685"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vo0-Ch-PFw" userLabel="TopBar">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="118"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms And Conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eni-VC-egE">
+                            <rect key="frame" x="96.666666666666671" y="67.333333333333329" width="199.66666666666663" height="23.666666666666671"/>
+                            <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                            <color key="textColor" name="headingText"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rXl-JD-B0d">
+                            <rect key="frame" x="0.0" y="55.333333333333343" width="48" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="OTu-6f-Izp"/>
+                                <constraint firstAttribute="width" constant="48" id="aE8-vX-A1m"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="backIcon">
+                                <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonAction:" destination="-1" eventType="touchUpInside" id="W1Y-u1-CUn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="WhiteAndDarkblue"/>
+                    <constraints>
+                        <constraint firstItem="Eni-VC-egE" firstAttribute="centerX" secondItem="vo0-Ch-PFw" secondAttribute="centerX" id="8WO-bC-7JZ"/>
+                        <constraint firstItem="rXl-JD-B0d" firstAttribute="centerY" secondItem="Eni-VC-egE" secondAttribute="centerY" id="QNl-zH-UYf"/>
+                        <constraint firstAttribute="height" constant="118" id="YSA-hf-NFj"/>
+                        <constraint firstItem="Eni-VC-egE" firstAttribute="centerY" secondItem="vo0-Ch-PFw" secondAttribute="centerY" constant="20.166666666666714" id="lxL-GP-s9B"/>
+                        <constraint firstItem="rXl-JD-B0d" firstAttribute="leading" secondItem="vo0-Ch-PFw" secondAttribute="leading" id="zoV-n5-UoJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vo0-Ch-PFw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="8EK-Jv-XS8"/>
+                <constraint firstItem="fmt-Mb-pug" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="BPC-TA-IVU"/>
+                <constraint firstItem="fmt-Mb-pug" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Lou-fO-DT9"/>
+                <constraint firstItem="fmt-Mb-pug" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NQg-QZ-DdG"/>
+                <constraint firstItem="fmt-Mb-pug" firstAttribute="top" secondItem="vo0-Ch-PFw" secondAttribute="bottom" constant="15" id="bcp-eC-7u1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vo0-Ch-PFw" secondAttribute="trailing" id="nRu-dd-NkT"/>
+                <constraint firstItem="vo0-Ch-PFw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="v4Y-8K-Ni5"/>
+            </constraints>
+            <point key="canvasLocation" x="32.824427480916029" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="24.333333969116211" height="24.333333969116211"/>
+        <namedColor name="WhiteAndDarkblue">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="headingText">
+            <color red="0.023529411764705882" green="0.023529411764705882" blue="0.023529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

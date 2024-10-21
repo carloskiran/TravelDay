@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+   		<string>com.example.app.backgroundtask</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.obs.travelpro</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.875898998064-jc9i4a11v2eecmvs59e386ercdet34it</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.obs.travelpro</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb574091774804820</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>574091774804820</string>
+	<key>FacebookClientToken</key>
+	<string>b274c3bba1a4ffac33a2e3f959a4665e</string>
+	<key>FacebookDisplayName</key>
+	<string>TRAVELTAXDAY</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
+</dict>
+</plist>
