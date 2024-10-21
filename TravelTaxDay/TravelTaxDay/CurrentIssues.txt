@@ -1,9 +1,0 @@
-Known Issues:
-When user location is changed (phone moves), and add stay at current location is pressed the location does not correctly update until a 2nd press (Or the app is closed)
-
-When a the only stay is deleted from a location, the location disappears as expected, however after adding a new stay to the same location, the location appears again, but the stay does not (until the app is closed)
-    Improved to update when the page is refreshed (the stay also appears in the country)
-
-Currently no way to edit stays at a location, only to delete them
-
-Currently no way to automatically add stays at current location (supposed to check every x hours) (In progress as background task)
